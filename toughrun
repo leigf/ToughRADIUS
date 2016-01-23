@@ -11,7 +11,7 @@ install()
 
     pypy -m pip install https://github.com/talkincode/txradius/archive/master.zip --upgrade --no-deps
 
-    git clone -b master https://github.com/talkincode/ToughRADIUS.git /opt/toughradius
+    git clone -b master https://github.com/leigf/ToughRADIUS.git /opt/toughradius
 
     cp /opt/toughradius/toughradius.json /etc/toughradius.json
 
